@@ -40,7 +40,7 @@
                         // Verificar si hay una sesión iniciada
                         if (isset($_SESSION['email'])) {
                             // Conexión a la base de datos
-                            $con = mysqli_connect("localhost", "root", "", "movies_cac");
+                            $con = mysqli_connect("localhost", "gnkvabsymk", "tU3gQVn54S", "gnkvabsymk");
 
                             if (!$con) {
                                 die("Error en la conexión al servidor: " . mysqli_connect_error());

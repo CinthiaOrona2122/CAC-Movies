@@ -2,7 +2,7 @@
 
 if (isset($_FILES["file"]) && isset($_POST["title"]) && isset($_POST["director"]) && isset($_POST["genre"]) && isset($_POST["date"]) && isset($_POST["rating"]) && isset($_POST["description"])) {
     //conexion a la base de datos
-    $con = mysqli_connect("localhost", "root", "", "movies_cac")
+    $con = mysqli_connect("localhost", "gnkvabsymk", "tU3gQVn54S", "gnkvabsymk")
         or die("Error en la conexion servidor");
 
     // Manejando el archivo de imagen

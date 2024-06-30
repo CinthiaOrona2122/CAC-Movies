@@ -49,7 +49,7 @@
             <h1>Editar Pelicula</h1>
             <form class="container p-5 create_movie" action="../CRUD/editar.php" method="POST" enctype="multipart/form-data">
                 <?php
-                $conexion = mysqli_connect("localhost", "root", "", "movies_cac");
+                $conexion = mysqli_connect("localhost", "gnkvabsymk", "tU3gQVn54S", "gnkvabsymk");
                 if (!$conexion) {
                     die("Error en la conexión al servidor: " . mysqli_connect_error());
                 }

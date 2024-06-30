@@ -1,6 +1,6 @@
 <?php
 
-$conexion = mysqli_connect("localhost", "root", "", "movies_cac");
+$conexion = mysqli_connect("localhost", "gnkvabsymk", "tU3gQVn54S", "gnkvabsymk");
 if (!$conexion) {
     die("Error en la conexión al servidor: " . mysqli_connect_error());
 }

@@ -2,12 +2,12 @@
 session_start();
 //añadir set-cookie: secure; HttpOnly y sessionID
 $_COOKIE['PHPSESSID'] = session_id();
-header('Set-Cookie: PHPSESSID=' . $_COOKIE['PHPSESSID'] . '; SameSite=None; Secure; HttpOnly');
+header('Set-Cookie: PHPSESSID=' . $_COOKIE['PHPSESSID']);
 
 // Verificar que los datos del formulario están presentes
 if (isset($_POST["email"]) && isset($_POST["password"])) {
    // Conexión a la base de datos
-   $con = mysqli_connect("localhost", "root", "", "movies_cac");
+   $con = mysqli_connect("localhost", "gnkvabsymk", "tU3gQVn54S", "gnkvabsymk");
 
    if (!$con) {
       die("Error en la conexión al servidor: " . mysqli_connect_error());

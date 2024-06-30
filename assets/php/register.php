@@ -2,7 +2,7 @@
 
 if (isset($_POST["name"]) && isset($_POST["surname"]) && isset($_POST["email"]) && isset($_POST["password"]) && isset($_POST["date"]) && isset($_POST["country"])) {
     //conexion a la base de datos
-    $con = mysqli_connect("localhost", "root", "", "movies_cac")
+    $con = mysqli_connect("localhost", "gnkvabsymk", "tU3gQVn54S", "gnkvabsymk")
         or die("Error en la conexion servidor");
 
     //query para insertar los datos en la tabla 'user', con rol default '2' (usuario)

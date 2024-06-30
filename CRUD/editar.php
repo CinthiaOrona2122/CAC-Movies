@@ -1,7 +1,7 @@
 <?php
 
 //conexion a la base de datos
-$conexion = mysqli_connect("localhost", "root", "", "movies_cac")
+$conexion = mysqli_connect("localhost", "gnkvabsymk", "tU3gQVn54S", "gnkvabsymk")
     or die("Error en la conexion servidor");
 
 
